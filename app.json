@@ -1,0 +1,23 @@
+{
+  "name": "Skype - API.AI integration by using Microsoft Bot Builder",
+  "description": "Node.js server to interface Skype Botbuilder with API.AI. This is created for a need of intermediate server between Skype and API.AI.",
+  "repository": "https://github.com/ocihangir/skype-botbuilder-apiai",
+  "keywords": ["skype", "botbuilder", "api.ai", "chatbot"],
+  "env": {
+    "MS_BOTBUILDER_APP_ID": {
+      "description": "Microsoft Botbuilder App ID",
+      "value": ""
+    },
+    "MS_BOTBUILDER_APP_PASSWORD": {
+      "description": "Microsoft Botbuilder App Password",
+      "value": ""
+    },
+	"APIAI_CLIENT_ACCESS_TOKEN": {
+      "description": "Client access token for API.AI",
+      "value": ""
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}
